@@ -6,7 +6,9 @@ body{
 .header-section{
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+    background-image: url(Images/Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
 }
@@ -41,4 +43,18 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.rules{
+    background-color: black;
+    color: white;
+}
+.commands{
+    background-color: black;
+    color: white;
+}
+
+.credits{
+    background-color: black;
+    color: white;
 }
